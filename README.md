@@ -10,5 +10,5 @@ Any interesting finding in any unit will be added here for easy navigation.
 
 ## Final Objective
 
-- [] Study and develop all single unit
-- [] Get certification
+- [ ] Study and develop all single unit
+- [ ] Get certification
