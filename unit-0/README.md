@@ -2,6 +2,6 @@
 
 This unit is for guidance and orientation only.
 
-- I've joined discord
-- Already had a hf account :)
-- Setup this repo
+- [x] I've joined discord
+- [x] Already had a hf account :)
+- [x] Setup this repo
