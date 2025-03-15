@@ -8,7 +8,8 @@ Each unit has its own python enviroments and requirements so dependencies don't 
 
 Any interesting finding in any unit will be added here for easy navigation.
 
-## Final Objective
+## Final Objectives
 
 - [ ] Study and develop all single units
 - [ ] Get certification
+- [ ] Create an agent that is able to trade in market
