@@ -47,3 +47,21 @@ A task can be **episodic** and **continuing**
 The difference is that in **exploration** the agent can try random actions to find more information about the environment.
 
 In **exploitation** the agent will use information it already knows to try maximizing reward.
+
+## Approaches
+
+There is two main approaches on solving a RL problem: **policy based** and **value based**.
+
+Before diving into each method, I will define **policy**. The **policy** is the "brain" of the agent. It is a function that returns an action given a state $s$
+
+Policy: $action = \pi(s)$
+
+### Policy Based
+
+In policy based methods, the agent learns a function directly. It can be **deterministic**: given a state it can select an action to take.
+
+It can also be **stochastic** where it returns a probability of an action. For example, given a state, it can return [left: 0.5, right: 0.5], a probability of taking each action.
+
+### Value based
+
+In this method, the agent learns a value function to trying reach the state with the highest value.
