@@ -65,3 +65,28 @@ It can also be **stochastic** where it returns a probability of an action. For e
 ### Value based
 
 In this method, the agent learns a value function to trying reach the state with the highest value.
+
+## The "Deep" in DRL
+
+Deep Reainforcement Learning means we use a Deep Learning model to approximate to a value function.
+
+One of the approach uses traditional algorithm called Q-Learning to find an action to take given a state.
+
+And in the second approach we'll use deep learning to approximate a Q-value.
+
+## Summary
+
+- RL:
+  - learns from actions
+  - trial and error
+  - It tries to maximize a reward
+- It's a loop:
+  - state
+  - action
+  - reward
+  - next state
+- We discount the early rewards (tries to make it more likely to try and "go far from the beggining")
+- We want to find an optimal policy, the best action to maximixe our return
+- Two ways to finding a policy:
+  - train a policy directly: policy based
+  - train a value function that tells us the expected return in each state: value based
